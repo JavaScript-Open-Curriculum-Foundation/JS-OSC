@@ -52,7 +52,8 @@ These won't be open sourced because they would need to be maintained better
 **Cross-Platform Publication SINGLE use Promotion article**
 * Short Form Promotion (250 Characters):
 - [x] Login to Twitter and Post promotion of new published article.
-- [x] Login to LinkedIn and Post promotion of new published article to profile, then relevant groups.
+- [x] Login to LinkedIn and Post promotion of new published article to profile, 
+   - [ ] then relevant groups.
 - [ ] Login to Facebook and Post promotion of each group.
 
 * Long Form Promotion (500+ Words with link to full article):
