@@ -59,6 +59,12 @@ Marketing is expensive and so it should it should be automated as much as possib
 - [x] Promotion Bot --> New Followers and Readers
 - [ ] Publication Automation --> Larger Reach, Less Grind, More Readers, More Followers
 
+## Email Marketing Campaign
+- [ ] Signup Page
+- [ ] Monthly Newsletter
+- [ ] Weekly Project Challenge
+- [ ] Daily Review - 1 Code Snippet, 3 Interview Questions, 3 reading, 3 videos
+
 
 ## Marketing Automation Scripts
 These won't be open sourced because it would make maintaining them a nightmare.
