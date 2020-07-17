@@ -1,4 +1,4 @@
-Read the [Full Article on Medium](https://medium.com/javascript-in-plain-english/how-to-create-an-animated-star-rating-with-just-css-4df50286ea4b?source=friends_link&sk=5184575c98b541f0bd1b920d607b2416)
+Read the [Full Article on Medium](https://medium.com/javascript-in-plain-english/how-to-create-an-animated-star-rating-with-just-css-4df50286ea4b?source=friends_link&sk=5184575c98b541f0bd1b920d607b2416)...
 
 ## Educational Objectives:
 1. Explain the difference between a CSS Selector and a CSS combinator
@@ -8,26 +8,23 @@ Read the [Full Article on Medium](https://medium.com/javascript-in-plain-english
 
 Today I will go over a simple but surprisingly powerful way to use previous child selector CSS “Hack” to build a Star Rating Component.
 
-## So how do we build a Star Rating Component with only CSS?
-Keep scrolling down to find out, in the mean time, I wanted to provide a little background on the context of this article…
-Beware. 
+## Background on this Article
+This article is part of an ongoing educational series that will be turned into an [Open Source Book](https://github.com/HansUXdev/OSS-Books) and therefore is considered a "living article" subject to change. If you have question, want to contribute or just wanna chat about the content, leave a comment!
 
-```
-There will be “humor”. It may or may not be taken out later...
+If you have a find a bug, typo, or want contribute directly to this book, you can submit an [issue](https://github.com/HansUXdev/OSS-Books/issues): 
 
-This article is part of an ongoing educational series that will be turned into an Open Source Book and therefore is considered a "living article" subject to change. If you have question, want to contribute or just wanna chat about the content, leave a comment!
 
-If you have a find a bug, typo, DM me on twitter @HansOnConsult or contribute directly to this book by submitting an issue: 
-https://github.com/HansUXdev/OSS-Books
-```
 
 ## CSS Basics in a single GIF
 I like my posts to be beginner friendly, without sacrificing advanced content. So here is a gif by Umar Hansa that goes over some of the most basic rule around css. Try out the [full link here](http://apps.workflower.fi/vocabs/css/en).
+
 ![css anatomy](http://g.recordit.co/xioIEE6rRb.gif)
 
 
 ## What we'll be building today
 ![CSS Only Star Rating](https://miro.medium.com/max/700/1*-go9uJzTY_Zv0Sfx13g9QA.gif)
+
+View the [codepen](https://codepen.io/HansUXdev/pen/GRoGYaQ).
  
 ## I wrote some code, a description in code comments and made a gif... So I guess, that’s all folks.
 
@@ -128,62 +125,11 @@ Plus it’s just bad CSS, so instead, we’ll simply write the following:
 }
 ```
 That’s much easier.
+
 But it’s important to remember that we are not really styling the previous siblings, we’re styling the siblings after the star we select and just reversing how it is presented to the user.
 
-That’s what makes this a CSS HACK
-### Option 2: Using SCSS, grid, grid-area and grid-template 
+### Read about Option 2 in the full version:
+To read more there are two options, both completely free because I don't believe knowledge should be locked behind a paywall or die slowly in academia...
 
-Since we’re already cheating, YOLO, let’s use SCSS which compiles down to CSS. Please don’t use code like this in production. It’s just another way of describing how to present the stars in reverse order in a more semantic way.
-Because I’m lazy I’ll use SCSS to provide some actually programmatic feature to generate my end user CSS.
-```scss
-// DO USE THIS IN CSS, it wont work because it's SCSS.
-@for $i from 1 through 5 {
-    .star-#{$i} {
-      grid-area: star-#{$i} ;
-    }
-}
-This complies down to the following CSS:
-.star-1 {grid-area: star-1;}
-.star-2 {grid-area: star-2;}
-.star-3 {grid-area: star-3;}
-.star-4 {grid-area: star-4;}
-.star-5 {grid-area: star-5;}
-```
-
-That we have 5 useless classes that describe the area of each star, we’ll manually rearrange them using grid-template
-```scss
-.star-rating-grid {
-  display: grid;
-  /* This is what flex-direction: row-reverse is doing */
-  grid-template: 
-  'star-5 ... star-4  ... star-3  ... star-2  ... star-1';
-}
-```
-Cheating with CSS is fun, doing it properly with react on the other hand is also fun & more practical.
-
-### Advanced Use Cases: SCSS Mixin
-If you are a bit new to CSS than I’d recommend skipping this part until you pick up SCSS. For those more daring, curious or experienced…
-
-I mad a fun little mix in for you all to use. You can also remove the :hover part for what ever you want.
-```scss
-@mixin previousSibling($parent, $child, $sibling) {
-  #{$parent} {
-    display: flex;
-    flex-direction: row-reverse;
-    #{$child}:hover ~ #{$sibling }{
-      @content;
-    }
-  }
-}
-@include previousSibling(".star-rating", ".star", "*") {
-  // Do something
-  background-color: red;
-}
-```
-
-### Educations Resources:
-Methods for Star Ratings: https://css-tricks.com/five-methods-for-five-star-ratings/
-Is there a Previous Sibling Combinator?
-Flex Direction:
-Adjacent sibling combinator
-General sibling **combinator**
+1. Read the original, [Full Article on Medium](https://medium.com/javascript-in-plain-english/how-to-create-an-animated-star-rating-with-just-css-4df50286ea4b?source=friends_link&sk=5184575c98b541f0bd1b920d607b2416) without a pay wall because we're friends. And friends, get friend-links.
+2. Contribute directly to this book by reading/discussing the section [Star-Rating.md](https://github.com/HansUXdev/OSS-Books/blob/master/HTML-CSS/Star-Rating.md). And if you desire, submitting a PR, Issue, etc on [github](https://github.com/HansUXdev/OSS-Books/issues) and reading the markdown article [Star-Rating.md](https://github.com/HansUXdev/OSS-Books/blob/master/HTML-CSS/Star-Rating.md).
