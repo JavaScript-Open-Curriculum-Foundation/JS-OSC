@@ -1,4 +1,6 @@
 # OSS BOOK(S)
+[![Follow me](https://img.shields.io/twitter/follow/hansonconsult.svg?style=for-the-badge)](https://twitter.com/hansonconsult)
+
 Open Source Book(s) is a long term project with the following objectives:
 1. Create & Maintain open source curriculum designed to teach anyone 16+ how to use JavaScript as the primary langauge to build a web site (JSX & JSS), server, mobile app or hardware device (J5).
 2. Promote content via social media, events and invite contributors and 🤞 supporters.
@@ -18,11 +20,11 @@ I have 4 main subjects I want to cover in the following order.
 1. JavaScript Runtime (Node.js) -->Terminal Commands, NVM & Git -->JavaScript Fundemental-->Node Website-->Functional/OOP Programming 
    - The idea here is to make learning CS without the low level garbage that drives people away, while still teaching programming concepts and concludes with a simple website built entirely with javascript and no frameworks...
 2. JavaScript Hardware (JohnnyFive) --> J5 --> ... (NEED THE MOST HELP HERE)
-   - The idea 
+   - The idea is use JavaScript to teach some basic electrical engineering concepts.
 2. JavaScript Web Site --> Concepts & Hosting Stuff --> -->HTML --> CSS --> SCSS--> JSX --> JSS --> React, 
    - The idea here is to teach enough HTML, CSS to appreate it but not enough to specialize in it so much that cant do Server-side stuff.
 4. JavaScript Mobile Apps --> TypeScript --> Deno --> React Ionic --> React-Native
-   - The idea 
+   - The idea here is to teach TypeScript and more OOP standards using app development.
 
 Check out the [project boards](https://github.com/HansUXdev/OSS-Books/projects) to get a better idea of the scope of topics I want to cover. The [Medium Distribution](https://github.com/HansUXdev/OSS-Books/projects/5) is an outline to help me keep track of articles, I will personally publish. The other boards are used for 
 
