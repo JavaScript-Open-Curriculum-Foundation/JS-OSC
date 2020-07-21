@@ -1,7 +1,8 @@
 # Code Red Challenge
-This is a rough draft of the promotional article for the event. Here is a [draft link to the medium article](https://medium.com/@HansOnConsult/code-like-you-are-on-fire-92acd7f478e5).
+[![Github Sponsorship](https://raw.githubusercontent.com/HansUXdev/OSS-Books/master/Code-Red-Challenge/CodeRed.gif)](https://github.com/sponsors/HansUXdev)
 
-Everything below 
+
+This is a rough draft of the promotional article for the event that will launch once the first github sponsor is obtained. Feel free to out the [sponsorship page](https://github.com/sponsors/HansUXdev).
 
 
 # Markdown Version of Promotional Draft
@@ -82,6 +83,3 @@ Follow on [medium](https://medium.com/@HansOnConsult) and [JavaScript In Plain E
 
 
 
-## A Brief History of JavaScript & Node.js
-Originally, websites did not have the any interactive behavior and were essentially just displaying text files. Eventually HTML and HTTP and other related technologies changed this. The creators behind the Mosaic browser, created a language called “LiveScript” and shipped it in 1995 to address this need. Within 3 months, it was renamed to “JavaScript” to build on the hype train programmers were on for Java, a completely separate and unrelated language. 
-[![A Brief History of JavaScript & Node.js](https://user-images.githubusercontent.com/5007073/88076957-92803a80-cb2f-11ea-93ae-722094556c4f.png)](https://medium.com/javascript-in-plain-english/a-brief-history-of-javascript-9289a4d344d2?source=friends_link&sk=e99b98fd76bf99dcc6fd1a85e60b4721)
