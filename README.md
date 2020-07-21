@@ -2,9 +2,9 @@
 [![Follow me](https://img.shields.io/twitter/follow/hansonconsult.svg?style=for-the-badge)](https://twitter.com/hansonconsult)
 
 Open Source Book(s) is a long term project with the following objectives:
-1. Create & Maintain open source curriculum designed to teach anyone 16+ how to use JavaScript as the primary langauge to build a web site (JSX & JSS), server, mobile app or hardware device (J5).
+1. Create & Maintain open source curriculum designed to teach anyone 16+ how to use JavaScript as the primary language to build a web site (JSX & JSS), server, mobile app or hardware device (J5).
 2. Promote content via social media, events and invite contributors and 🤞 supporters.
-3. Sell Content to (For-Profit) Educational Institutions --> Profit --> Donate 4G Computers to underprivilaged kids.
+3. Sell Content to (For-Profit) Educational Institutions --> Profit --> Donate 4G Computers to underprivileged kids.
 
 # Note
 I've never written a book before so any and all feedback or contributions are highly appreciated.
@@ -16,16 +16,20 @@ If you like one and want to contribute there are a bunch of ways you can help. S
 
 
 ## Content Creation
-I have 4 main subjects I want to cover in the following order.
-1. JavaScript Runtime (Node.js) -->Terminal Commands, NVM & Git -->JavaScript Fundemental-->Node Website-->Functional/OOP Programming 
-   - The idea here is to make learning CS without the low level garbage that drives people away, while still teaching programming concepts and concludes with a simple website built entirely with javascript and no frameworks...
-2. JavaScript Hardware (JohnnyFive) --> J5 --> ... (NEED THE MOST HELP HERE)
-   - The idea is use JavaScript to teach some basic electrical engineering concepts.
-2. JavaScript Web Site --> Concepts & Hosting Stuff --> -->HTML --> CSS --> SCSS--> JSX --> JSS --> React, 
-   - The idea here is to teach enough HTML, CSS to appreate it but not enough to specialize in it so much that cant do Server-side stuff.
-4. JavaScript Mobile Apps --> TypeScript --> Deno --> React Ionic --> React-Native
-   - The idea here is to teach TypeScript and more OOP standards using app development.
-
+I have 4 broad subjects I want to cover .
+1. JavaScript Runtime 
+   - Scope: Node.js -->Terminal Commands, NVM & Git -->JavaScript Fundemental-->Node Website-->Functional & OOP Programming 
+   - The idea here is to teach CS without the low level garbage that drives people away from it and without the oversimplified HTML/CSS first approach. JavaScript is a good middle ground because its a dynamic language and you can still teach programming concepts as well as web design.
+2. JavaScript Web Site 
+   - Scope: Concepts & Hosting Stuff -->HTML --> CSS --> SCSS--> JSX --> JSS --> React, 
+   - The idea here is to teach enough HTML, CSS to appreciate it but not enough to specialize in just the design aspect and instead focusing on  Server-side stuff and component-based design.
+3. JavaScript Mobile Apps
+   - Scope: TypeScript --> Deno --> React Ionic --> React-Native
+   - The idea here is to teach TypeScript and more OOP standards using app development so the transition into C#, Java, etc is easier in college.
+4. JavaScript Hardware 
+  - Scope: (JohnnyFive) --> J5 --> 3D Printing, ____ (NEED THE MOST HELP HERE)
+   - The idea is use JavaScript to teach some basic electrical engineering concepts and cater more to kinesthetic learners.
+   - 
 Check out the [project boards](https://github.com/HansUXdev/OSS-Books/projects) to get a better idea of the scope of topics I want to cover. The [Medium Distribution](https://github.com/HansUXdev/OSS-Books/projects/5) is an outline to help me keep track of articles, I will personally publish. The other boards are used for 
 
 
@@ -54,42 +58,3 @@ Check out the [project boards](https://github.com/HansUXdev/OSS-Books/projects) 
 
 
 
-# Marketing
-Marketing is expensive and so it should it should be automated as much as possible to.
-
-**Marketing Strategy Outline**
-- [x] Promotion Bot --> New Followers and Readers
-- [ ] Publication Automation --> Larger Reach, Less Grind, More Readers, More Followers
-
-## Email Marketing Campaign
-- [ ] Signup Page
-- [ ] Monthly Newsletter
-- [ ] Weekly Project Challenge
-- [ ] Daily Review - 1 Code Snippet, 3 Interview Questions, 3 reading, 3 videos
-
-
-## Marketing Automation Scripts
-These won't be open sourced because it would make maintaining them a nightmare.
-
-**Business Intellengence Automation**
-- [x] AI that analyzes social media connections and makes recommendations on who to network with based on an index value of the following factors. 
-- [x] Max Social Index Value - Shared connections, reach potential, subject matter interest with previous engagement
- 
-**Repetitive Marketing**
-- [x] Twitter Bot that promotes a **random article every x of time** at 5am and 5pm for 3 hours.
-  - Needs better architecture, add a backend REST API?
-  - Issues, has to be semi-manual to beat recaptia
-  - Link Browser Profile, Add Cookies, and header meta data needs to be improved to better emulate a human.
-- [ ] Twitter Bot that promotes a random educational coding snippet and prompts to follow.
-
-**Cross-Platform Publication SINGLE use Promotion article**
-* Short Form Promotion (250 Characters):
-- [x] Login to Twitter and Post promotion of new published article.
-- [x] Login to LinkedIn and Post promotion of new published article to profile, 
-   - [ ] then relevant groups.
-- [ ] Login to Facebook and Post promotion of each group.
-
-* Long Form Promotion (500+ Words with link to full article):
-- [ ] Draft in Markdown at start (WordPress API?) || Crawl the newly published article & convert to markdown formate
-- [ ] Login to CodeMentor and Post Preview Article with link to full Draft (MARKDOWN version)
-- [ ] Login to Dev.to and Post Preview Article with link to full Draft (MARKDOWN version)
