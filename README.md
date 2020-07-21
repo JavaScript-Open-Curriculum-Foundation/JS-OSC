@@ -6,6 +6,13 @@ Open Source Book(s) is a long term project with the following objectives:
 2. Promote content via social media, events and invite contributors and 🤞 supporters.
 3. Sell Content to (For-Profit) Educational Institutions --> Profit --> Donate 4G Computers to underprivileged kids.
 
+## Funding
+Check out the [sponsorship page](https://github.com/sponsors/HansUXdev) and read about the #Code-Red-Challenge(https://github.com/HansUXdev/OSS-Books/tree/master/Code-Red-Challenge) promotional coding challenge by clicking the gif.
+
+[![Github Sponsorship](https://raw.githubusercontent.com/HansUXdev/OSS-Books/master/Code-Red-Challenge/CodeRed.gif)](https://github.com/HansUXdev/OSS-Books/tree/master/Code-Red-Challenge)
+
+
+
 # Note
 I've never written a book before so any and all feedback or contributions are highly appreciated.
 I'll even welcome trolls at this point (regret it later)...
