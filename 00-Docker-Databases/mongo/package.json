@@ -1,0 +1,16 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Browse.js && docker-compose up -d",
+    "mongo": "docker exec -it mongo mongo",
+    "list-containers": "docker ps",
+    "remove": "docker rm -f $(docker ps -a -q)",
+    "docker-stop": "docker stop $(docker ps -aq)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
