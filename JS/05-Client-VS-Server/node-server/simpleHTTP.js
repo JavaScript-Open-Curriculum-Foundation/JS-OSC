@@ -5,16 +5,10 @@
  * 3. https://stackoverflow.com/questions/28822034/simple-node-js-server-that-sends-htmlcss-as-response
  */
 
-// import http from 'http';
 let http = require('http')
 const fs = require('fs');
-
 const PORT = 7000;
 
-
-/**
- * @description: accepts three template strings as arguments and return html.
- */
 const html = (header,body,footer) => {
   return `<!DOCTYPE html>
   <html lang="en">
@@ -31,7 +25,6 @@ const html = (header,body,footer) => {
   </html>`;
 }
 
-
 http.createServer(
   (req,res)=>{
     res.writeHead(200, {
@@ -41,9 +34,13 @@ http.createServer(
     })
     res.end(
       html(
-        `<link rel="stylesheet" href="/public/style.css">`,
+        `
+          <link rel="stylesheet" href="/public/style.css">
+          <style>
+          </style>
+        `,
         `<h1>HELLO</H1>`,
-        `<script src="/public/alert.js"></script>`
+        `<script> alert('hi') </script>`
       ) 
     );
   }
