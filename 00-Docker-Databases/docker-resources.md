@@ -24,21 +24,11 @@ $ docker version
 ```
 $ docker info
 ```
+4. Target all containers
+```
+$(docker ps -aq)
+```
 
-## Docker-Compose Commands
-- Configure relationships between containers
-- Save our docker container run settings in easy to read file
-- 2 Parts: YAML File (docker.compose.yml) + CLI tool (docker-compose)
-<!--  -->
-
-1. Run the project
-      - ```docker-compose up```
-      - (Run in background)
-      - ```docker-compose up -d```
-2. Stop the Project (Every )
-      - ```$ docker-compose down```
-
-<!-- ---------- -->
 
 ## Container Commands
 Basic Commands for working with containers
@@ -67,6 +57,25 @@ Basic Commands for working with containers
 3. Remove all containers
    - ```$ docker rm $(docker ps -aq)```
 
+## Docker-Compose Commands
+- Configure relationships between containers
+- Save our docker container run settings in easy to read file
+- 2 Parts: YAML File (docker.compose.yml) + CLI tool (docker-compose)
+<!--  -->
+
+1. Check whats running before your start a project
+      - ```docker && docker ps```
+      - Take note on what ports (if any are in use)
+      - if any are running, stop the them
+      - ```docker stop $(docker ps -aq)```
+2. Run the project
+      - ```docker-compose up```
+      - (Run in background)
+      - ```docker-compose up -d```
+3. Stop the Project (Every )
+      - Best practice is to run this
+      - ```docker-compose down```
+4. If you run into a problem, READ the console before asking for help.
 
 
 
