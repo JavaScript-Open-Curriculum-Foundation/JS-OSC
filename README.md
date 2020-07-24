@@ -50,7 +50,7 @@ Check out the [project boards](https://github.com/HansUXdev/OSS-Books/projects) 
 
 **Soon to be released chapters**
 * [Chapter X: Debugging]()
-* [Chapter X: All the Functions]()
+* [Chapter X: Functions]()
 * [Chapter X: Objects, Arrays and Methods of Iteration]()
 * [Chapter X: Building your first website entirely in JavaScript]()
 

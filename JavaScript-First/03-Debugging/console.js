@@ -10,7 +10,7 @@ const DebugObj     = false;   // Enables logs on the script,
 const TypeCheck    = false;   // Enabled type-based logs
 
 
-vVAR = "you hoisted me...";
+VAR = "you hoisted me...";
 // BEWARE
 // Null will log as an object due to an unfixable bug in the language...
 // 1. https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined
