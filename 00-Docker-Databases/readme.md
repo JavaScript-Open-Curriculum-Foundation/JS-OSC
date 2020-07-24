@@ -8,9 +8,10 @@ Students should be to:
 4. Compare and contrast Docker & Docker Compose
 5. Use Docker Compose to learn mongoDB and MySQL
 
-## Sections
-1. MongoDB
-2. MySQL
+## Lessons
+1. Docker Commands
+2. MongoDB
+3. MySQL
 
 
 ## Projects

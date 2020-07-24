@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node Browse.js && docker-compose up -d",
-    "mongo": "docker exec -it mongo mongo",
-    "list-containers": "docker ps",
-    "remove": "docker rm -f $(docker ps -a -q)",
-    "docker-stop": "docker stop $(docker ps -aq)"
+    "mongo": "docker exec -it learn-mongo mongo",
+    "docker-stop": "docker stop $(docker ps -aq)",
+    "remove": "docker rm -f $(docker ps -a -q)"
   },
   "keywords": [],
   "author": "",
