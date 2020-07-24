@@ -24,7 +24,7 @@ If you like one and want to contribute there are a bunch of ways you can help. S
 
 ## Content Creation
 I have 4 broad subjects I want to cover .
-1. JavaScript Runtime 
+1. JavaScript-First
    - Scope: Node.js -->Terminal Commands, NVM & Git -->JavaScript Fundemental-->Node Website-->Functional & OOP Programming 
    - The idea here is to teach CS without the low level garbage that drives people away from it and without the oversimplified HTML/CSS first approach. JavaScript is a good middle ground because its a dynamic language and you can still teach programming concepts as well as web design.
 2. JavaScript Web Site 
@@ -65,3 +65,5 @@ Check out the [project boards](https://github.com/HansUXdev/OSS-Books/projects) 
 
 
 
+Awesome External Resources:
+1. [Awesome Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
