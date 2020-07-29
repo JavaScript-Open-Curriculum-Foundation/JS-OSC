@@ -55,19 +55,17 @@ After each challenge, the student must complete a quiz or project to evaluate wh
 4. Explain Basic JavaScript Concepts within ____ amount of time.
      * Students will then be evaluated on their knowledge.
 
-5. Use Node.js, google and the API docs to build a basic server in ____ amount of time.
+5. Explain difference between Clients and Servers and how it relates to client-side and server-side JavaScript in ____ amount of time.
+     * Students will then be evaluated on their knowledge.
+
+6. Using Node.js and their API docs to build a basic server using the HTTP method ____ amount of time.
      * Students will then try to **repeat the process**(Project).
 
-6. Using the previous example, explain basic
-
-7. Explain difference between Clients and Servers in ____ amount of time.
-     * Students will then try to **repeat the process**(Project) and be evaluated on their knowledge.
-
-8. Use Express to explain difference between Clients and Servers ____ amount of time
+7. Explain NPM and Use Express to demonstrate difference between Clients and Servers files ____ amount of time
      * Students will then try to **repeat the process**(Project) and be evaluated on their knowledge.
   
-9.  Something that isn't voted for the final project...
-     * Students will then try to **repeat the process**(Project) and be evaluated on their knowledge.
+8.  Build a React Subscribe buttom with use State.
+     * Students will then try to **repeat the process**(Project).
 
 9.  A really big, fancy, unique challenge with the last dab.
   Options:
