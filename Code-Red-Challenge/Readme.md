@@ -20,7 +20,7 @@ by participating in the spiciest coding competition.
 
 
 ## What is the #CodeRedChallenge ?
-The objective of the #CodeRedChallenge is to people how to code in a fun and entertaining way by using a game show formate like **Hot Ones** as a form of active engagement for educational purposes.
+The objective of the #CodeRedChallenge is to teach people how to code in a fun and entertaining way by using a game show formate like **Hot Ones** as a form of active engagement for educational purposes.
 
 ### Active Engagement
 1. Think Pair Share
