@@ -83,8 +83,6 @@ export default function SubscribeBTN() {
       <button style={defaultStyle} onClick={toggleTrueFalse}>
         <h3>Subscribe</h3>
       </button>
-      {/* Unsubscribed  */}
-      <IconBell type={isToggled} ></IconBell>
     </div>
     );
   }
