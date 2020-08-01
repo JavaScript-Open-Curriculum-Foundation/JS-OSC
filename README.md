@@ -37,7 +37,17 @@ I do however work a lot on this and have bills to pay so please consider checkin
 
 [![Github Sponsorship](https://raw.githubusercontent.com/HansUXdev/OSS-Books/master/Code-Red-Challenge/CodeRed.gif)](https://github.com/HansUXdev/OSS-Books/tree/master/Code-Red-Challenge)
 
+# About the spiciest YouTube Channel
+Hans On Coding is a channel dedicated to everything related to coding, web development, programming, and a dash of spicy peppers, design and a little bit of everything else in between.
 
+[![About YouTube Channel](./Marketing/YouTubeIntro.png)](https://www.youtube.com/watch?v=HN5OLOthkLg&t=1s)
+
+The channel will feature the following types of videos:
+1. Podcasting / Interviews with Industry Professionals
+2. Coding Events & Fun Challenges 
+3. Coding Tutorials
+4. JavaScript-based Hardware projects
+5. Open Source Coding Curriculum (this whole repo)
 
 # Notes
 I've never written a book before so any and all feedback or contributions are highly appreciated.
