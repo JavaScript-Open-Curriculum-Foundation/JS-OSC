@@ -1,11 +1,4 @@
-/**
- * 1. Pass a video into the media file.
- * - https://www.pexels.com/videos/
- * 2. Use puppeteer to screen shot the video. 
- * 3. https://stackoverflow.com/questions/28822034/simple-node-js-server-that-sends-htmlcss-as-response
- */
-
-let http = require('http')
+const http = require('http')
 const fs = require('fs');
 const PORT = 7000;
 
