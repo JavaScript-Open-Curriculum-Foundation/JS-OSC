@@ -3,6 +3,12 @@
      - [x] db, use db
      - [x] Insert
      - [x] Find()
+     - [ ] update() $set
+     - [ ] update() multi
+     - [ ] update() $push
+     - [ ] remove()
+     - [ ] drop()
+     - [ ] dropDatabase()
 - [ ] MongoDB Express
      - [x] Accessing the database
      - [ ] Edit Documents
