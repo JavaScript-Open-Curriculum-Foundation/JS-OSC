@@ -84,6 +84,7 @@ onClick={() => selectStar(currentStar + 1)} // #4
 ## StarRating
 
 StarRating
+[![][18]][18]
 
 -   This component will map over the Star Component and increment the key value. 
 -   \#1 we set the initial state to 0 and it will increment up to the value of totalStars.
@@ -95,11 +96,11 @@ StarRating
 
 ### Parameters
 
--   `$0` **[Object][18]** 
+-   `$0` **[Object][19]** 
     -   `$0.totalStars`  
--   `starsSelected` **[Number][19]** The current state.
+-   `starsSelected` **[Number][20]** The current state.
 -   `selectStar` **[Function][17]** A setter function to set the state.
--   `totalStars` **[Number][19]** This number is our "iterator".
+-   `totalStars` **[Number][20]** This number is our "iterator".
 
 ### Examples
 
@@ -152,6 +153,8 @@ JSS - JavaScript CSS
 
 [17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function
 
-[18]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+[18]: ./StarRating.png
 
-[19]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+[19]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+[20]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number

@@ -60,6 +60,7 @@ export const Star = ({ selected = false, onClick = f => f }) => (
 
 /**
  * @description - StarRating
+ [![](./StarRating.png)](./StarRating.png)
   - This component will map over the Star Component and increment the key value. 
   - #1 we set the initial state to 0 and it will increment up to the value of totalStars.
   - #2 
