@@ -1,7 +1,14 @@
+/**
+ * @description Simple Express Server 1 
+*/
+
 const http = require('http')
 const fs = require('fs');
 const PORT = 7000;
 
+/**
+ * 
+*/
 const html = (header,body,footer) => {
   return `<!DOCTYPE html>
   <html lang="en">
