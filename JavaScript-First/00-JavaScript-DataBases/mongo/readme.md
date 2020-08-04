@@ -1,21 +1,3 @@
-# Unit Todo List
-- [ ] MongoDB Methods
-     - [x] db, use db
-     - [x] Insert
-     - [x] Find()
-     - [ ] update() $set
-     - [ ] update() multi
-     - [ ] update() $push
-     - [ ] remove()
-     - [ ] drop()
-     - [ ] dropDatabase()
-- [ ] MongoDB Express
-     - [x] Accessing the database
-     - [ ] Edit Documents
-- [ ] Publish Tutorial (this readme file)
-- [ ] Slides
-- [ ] Resources
-
 # Package.json is used to demostrate NPM Scripts for use with docker
 Students should be able to:
 * Identify the following line in the package.json file

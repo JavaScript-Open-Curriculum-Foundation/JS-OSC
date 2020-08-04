@@ -1,5 +1,6 @@
 # Todo List
-- [ ] MongoDB Exercises
+- [ ] Explain CRUD
+- [ ] MongoDB Exercises (CRUD METHODS)
 - [ ] Publish Tutorial (this readme file)
 - [ ] Slides
 - [ ] Resources
