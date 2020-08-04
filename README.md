@@ -1,10 +1,47 @@
 # OSS BOOK(S)
-[![Follow me](https://img.shields.io/twitter/follow/hansonconsult.svg?style=for-the-badge)](https://twitter.com/hansonconsult)
 
 Open Source Book(s) is a long term project with the following objectives:
 1. Create & Maintain open source curriculum designed to teach anyone 16+ how to use JavaScript as the primary language to build a web site, server, mobile app or hardware device (J5).
 2. Promote content via social media, events and invite contributors and 🤞 supporters.
 3. Sell Content to (For-Profit) Educational Institutions --> Profit --> Donate 4G Computers to underprivileged kids.
+
+
+[![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0)
+
+
+[![Follow me](https://img.shields.io/twitter/follow/hansonconsult.svg?style=for-the-badge)](https://twitter.com/hansonconsult) 
+
+
+
+
+## Content Published on:
+<a href="https://medium.com/@hansOnConsult" class="MEDIUM">
+   <img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
+</a>
+<a href="https://dev.to/hansuxdev" class="DEV TO">
+   <img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" />
+</a>
+<a href="https://www.youtube.com/channel/UCCGfELkPCJg1XHxQfFFz7pw/about" class="YOUTUBE">
+   <img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+
+## Social:
+<a href="https://www.linkedin.com/in/brett-hans-mcmurdy/" class="LINKEDIN">
+   <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://twitter.com/HansOnConsult" class="TWITTER">
+   <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
+</a>
+
+
+
+<!-- <a href="">
+<img src="https://img.shields.io/badge/twitch-%239146FF.svg?&style=for-the-badge&logo=twitch&logoColor=white" />
+</a> -->
+
+
+
+
 
 # Philosophy
 ```
@@ -61,17 +98,18 @@ If you like one and want to contribute there are a bunch of ways you can help. S
 ## Books
 I have 4 broad subjects I want to cover .
 1. JavaScript-First
-   - Scope: Node.js -->Terminal Commands, NVM & Git -->JavaScript Fundemental-->Node Website-->Functional & OOP Programming 
+   - Scope: 
+   Node.js -->Terminal Commands, NVM & Git -->JavaScript Fundemental-->Node Website-->ClientVSServer-->Express-->JSX --> JSS --> React
    - The idea here is to teach CS in way that is accessible and doesn't drive people away from it and also without the oversimplified approach of teaching HTML/CSS first. JavaScript is a good middle ground because its a dynamic language that can be used anywhere a runtime environment is installed (node/deno). You can still teach programming concepts as well as web design.
-2. JavaScript Web Site 
-   - Scope: Concepts & Hosting Stuff -->HTML --> CSS --> SCSS--> JSX --> JSS --> React, 
-   - The idea here is to teach enough HTML, CSS to appreciate it but not enough to specialize in just the design aspect and instead focusing on  Server-side stuff and component-based design.
-3. JavaScript Mobile Apps
-   - Scope: TypeScript --> Deno --> React Ionic --> React-Native
-   - The idea here is to teach TypeScript and more OOP standards using app development so the transition into C#, Java, etc is easier in college.
-4. Docker Databases
+2. Frontend-Foundations
+   - Scope: HTML --> CSS --> SCSS--> JSX --> JSS --> React, 
+   - The idea here is to teach enough HTML, CSS to appreciate it and not be afraid.
+3. Docker Databases
    - The idea with this is to teach full-stack development with simple, scalable solutions.
    - Focuses on security practices, learning database design, dockerizing node applications, etc.
+4. JavaScript Mobile Apps
+   - Scope: TypeScript --> Deno --> React Ionic --> React-Native
+   - The idea here is to teach TypeScript and more OOP standards using app development so the transition into C#, Java, etc is easier in college.
 5. JavaScript Hardware 
   - Scope: (JohnnyFive) --> J5 --> 3D Printing, ____ (NEED THE MOST HELP HERE)
    - The idea is use JavaScript to teach some basic electrical engineering concepts and cater more to kinesthetic learners.
@@ -102,6 +140,10 @@ Check out the [project boards](https://github.com/HansUXdev/OSS-Books/projects) 
 * [Chapter X: Object Oriented Javascript]()
 * [Chapter X: Light introduction to Data Structures]()
 
+# Resources
+1. slides-- for code content...
+   - [ ] [asciidoc](https://marketplace.visualstudio.com/items?itemName=flobilosaurus.vscode-asciidoc-slides)
+   - [ ] [reveal md](https://marketplace.visualstudio.com/items?itemName=tokiedokie.reveal-markdown)
 
 
 Awesome External Resources:
