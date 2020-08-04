@@ -47,6 +47,7 @@ import "./StarRating.css";
  * - default value is false. 
  * - changes the className property from .star to .star.selected 
  * @param {function}  onClick - The callback that handles the click event.
+ [![](./StarComponent.png)]()
  * @example
         <Star
           key={currentStar}                           // #2
@@ -60,7 +61,6 @@ export const Star = ({ selected = false, onClick = f => f }) => (
 
 /**
  * @description - StarRating
- [![](./StarRating.png)](./StarRating.png)
   - This component will map over the Star Component and increment the key value. 
   - #1 we set the initial state to 0 and it will increment up to the value of totalStars.
   - #2 
@@ -68,6 +68,7 @@ export const Star = ({ selected = false, onClick = f => f }) => (
   - #4 key is incremented by the value of the index variable, currentStar
   - #5 **selected** is determined to be true or false if the **currentStar** is greater than starsSelected
   - #6 
+ [![](./StarRating.png)](./StarRating.png)
  * @param {Number} starsSelected - The current state.
  * @param {Function} selectStar - A setter function to set the state.
  * @param {Number} totalStars - This number is our "iterator".

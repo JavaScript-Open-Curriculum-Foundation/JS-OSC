@@ -70,6 +70,7 @@ This function exists to be iter
 
 -   `selected` **[boolean][16]** default value is false. -   changes the className property from .star to .star.selected
 -   `onClick` **[function][17]** The callback that handles the click event.
+    [![][19]][18]
 
 ### Examples
 
@@ -84,7 +85,6 @@ onClick={() => selectStar(currentStar + 1)} // #4
 ## StarRating
 
 StarRating
-[![][18]][18]
 
 -   This component will map over the Star Component and increment the key value. 
 -   \#1 we set the initial state to 0 and it will increment up to the value of totalStars.
@@ -92,15 +92,16 @@ StarRating
 -   \#3  n=currentValue, currentStar=index
 -   \#4 key is incremented by the value of the index variable, currentStar
 -   \#5 **selected** is determined to be true or false if the **currentStar** is greater than starsSelected
--   \#6
+-   \#6 
+    [![][20]][20]
 
 ### Parameters
 
--   `$0` **[Object][19]** 
+-   `$0` **[Object][21]** 
     -   `$0.totalStars`  
--   `starsSelected` **[Number][20]** The current state.
+-   `starsSelected` **[Number][22]** The current state.
 -   `selectStar` **[Function][17]** A setter function to set the state.
--   `totalStars` **[Number][20]** This number is our "iterator".
+-   `totalStars` **[Number][22]** This number is our "iterator".
 
 ### Examples
 
@@ -153,8 +154,12 @@ JSS - JavaScript CSS
 
 [17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function
 
-[18]: ./StarRating.png
+[18]: <>
 
-[19]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+[19]: ./StarComponent.png
 
-[20]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+[20]: ./StarRating.png
+
+[21]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+[22]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
