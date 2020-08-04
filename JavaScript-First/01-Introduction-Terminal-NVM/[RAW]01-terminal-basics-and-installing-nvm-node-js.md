@@ -1,16 +1,19 @@
+# Learn JavaScript First, with terminal, NVM & Node.js
+
 In this article, you will learn the basics of terminal commands then we’ll go over installing git & NVM, and finally installing node and creating a test.js file.
 
-This article is part of an ongoing educational series that will be turned into a book and therefore is considered a "living article" subject to change.
+This content is part of an ongoing educational series and based off content originally taught to high school coding students to teach them full stack JavaScript in a semester. It is now being turned into an [open source book](https://github.com/HansUXdev/OSS-Books) and therefore is considered a "living article" subject to change, new articles are published on github first, then on [medium.com](https://medium.com/@HansOnConsult).
+
 If you have question, want to contribute or just wanna chat about the content, leave a comment!
 If you have a find a bug, typo, DM me on twitter @HansOnConsult.
 
-If you want to contribute to the book, see the GitHub page: https://github.com/HansUXdev/UniversalJavaScript
+If you want to contribute to the book, see the GitHub page: https://github.com/HansUXdev/OSS-Books
 
 ## Pre-Assessments
 Before you continue reading, consider taking the [pre-assessment](https://create.kahoot.it/share/command-line/69a5e0af-b335-405b-8dd9-fffee3191193) to test your knowledge of basic terminal commands. The knowledge assessments are intended to only take 60 seconds and are used to assess whether a reader has the required /preferred prior knowledge.
-```
+
 If you pass the assessment then feel free to skip the command line section and start installing NVM.
-```
+
 
 ## Command Line Basics
 Below is a list of just a few common commands you will need to use and understand to install some developer tools like nvm and others.
