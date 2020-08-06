@@ -1,0 +1,79 @@
+:revealjs_theme: blood
+
+= Funding Open Source? 
+
+
+== Problem(s)...
+
+* Paying for Knowlege
+* Changing Demands
+* Cost of Curriculum
+
+== Current Business Model...
+This is a problem
+
+image::https://raw.githubusercontent.com/HansUXdev/OSS-Books/d91c8b013b5ed2e3d3bcfaca9423e45ccd4f8daa/Business%20Plan/leanBusiness.drawio.svg[]
+
+Something
+
+== Solution
+
+* Free Knowlege
+* Modern Curriculum
+* Quality Teaching Resources
+
+
+
+== Lean Business Model...
+This is a problem
+
+image::https://raw.githubusercontent.com/HansUXdev/OSS-Books/a85c9c80871d1089c72d1871dd502b3c93826bad/Business%20Plan/leanBusinessModelCanvas.drawio.svg[]
+
+
+== Value Proposition
+This is a problem
+
+== Partners
+We need the following:
+
+* Something [ ] 
+* Something [ ] 
+
+
+== Activities
+This is a problem
+
+=== Resources
+What Resources do our Value Propositions require?
+
+
+
+== Customer Segment
+This is a problem
+
+=== Customer Relationships
+This is a problem
+
+== Cost Structure
+This is mostly employee expenses.
+
+== Revenue Streams
+This is a problem.
+
+=== Channels
+This is a problem.
+
+
+== Conclusion
+This is why we need the funding
+
+== Stuff
+image::https://raw.githubusercontent.com/HansUXdev/OSS-Books/master/JavaScript-First/04-Client-VS-Server/HTTP-readFile.png[background, size=cover]
+
+=== Quote
+[quote, Albert Einstein]
+A person who never made a mistake never tried anything new.
+
+=== Terms & concepts
+first term:: definition of first term
+second term:: definition of second term
