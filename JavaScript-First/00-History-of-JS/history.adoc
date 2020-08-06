@@ -2,6 +2,8 @@
 = History of JavaScript
 
 == The Begining...
+link:./index.html[Intro Film]
+
 Before "JavaScript Existed", The creators behind the Mosaic browser created a language called "LiveScript" and shipped it in 1995. Within 3 months, it was renamed to "JavaScript" to build on the hype train programmers were on with Java, a completely separate and unrelated language.
 
 === Browser Wars

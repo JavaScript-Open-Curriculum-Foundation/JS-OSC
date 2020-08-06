@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+.fade {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  top: -25px;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 1;
+}
+
+.star-wars {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 800px;
+  color: #feda4a;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 500%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
+  perspective: 400px;
+  text-align: justify;
+}
+
+.crawl {
+  position: relative;
+  top: 99999px;
+  transform-origin: 50% 100%;
+  animation: crawl 60s linear;
+}
+
+.crawl > .title {
+  font-size: 90%;
+  text-align: center;
+}
+
+.crawl > .title h1 {
+  margin: 0 0 100px;
+  text-transform: uppercase;
+}
+
+@keyframes crawl {
+	0% {
+    top: -100px;
+    transform: rotateX(20deg)  translateZ(0);
+  }
+	100% { 
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2500px);
+  }
+}
+  </style>
+</head>
+<body>
+  <!-- 
+  DONT CREDIT ME, Credit him...
+    https://css-tricks.com/snippets/css/star-wars-crawl-text/
+  -->
+
+  Fancy Star Wars Intro?
+
+  <div class="fade"></div>
+
+  <section class="star-wars">
+    <div class="crawl">
+      <div class="title">
+        <p>Browser Wars: Episode I</p>
+        <h1>Phatom Scripting</h1>
+      </div>
+      <p>
+        Before "JavaScript Existed", The creators behind the Mosaic browser created a language called "LiveScript" and shipped it in 1995. Within 3 months, it was renamed to "JavaScript" to build on the hype train programmers were on with Java, a completely separate and unrelated language.
+      </p>
+      <p>
+        The first attempt at standardizing scripting languages was in 1997 with ECMAScript. (ES-1) as part of European Computer Manufacturers Association (ECMA). However, different implementations, competing languages, and egos prevented any real standardization from occurring until 2009. In between that time, the (failed) proposal for ES-4 (led by Mozilla and others) attempted to call for more traditional programming concepts like classes, modules, etc.
+      </p>
+    <!--  -->
+      <div class="title">
+        <p>Browser Wars: Episode II</p>
+        <h1>MircroSoft Attacks</h1>
+      </div>
+      <p>
+        Eventually, Microsoft did what they always do, which is steal source code from someone else's product and release their own version of it, Internet Explorer that used <bold>JScript</bold>. The browsers wars started and long story, short, Mosaic, and other browsers died off due to Internet Explorer. Yet multiple forks of JS remained as well as other scripting languages. All of which were made to address the same issues of providing the browser interactive behavior beyond hyperlinks and the page reloading.
+      </p>
+
+      <!--  -->
+      <div class="title">
+        <p>Browser Wars: Episode III</p>
+        <h1>Revenge of ECMAScript</h1>
+      </div>
+      <p>
+        The ES4 standard was abandoned largely due to the concern of "breaking the web" and the introduction of AJAX ( Asynchronous JavaScript And XML") which allowed for client-side dynamic content. As a result of multiple factors, jQuery was created in 2006, largely to provide cross-browser support for different implementations of JavaScript and AJAX. By 2009 ES-5 was released and essentially became what the De facto Standard of JavaScript that most still refer to.
+      </p>
+
+      <!--  -->
+        <div class="title">
+          <p>Browser Wars: Episode VI</p>
+          <h1>Return of ECMAScript 4?</h1>
+        </div>
+          
+        <p>
+          It is important to note, that virtually every proposed feature in ES4 would later be implemented in ES-6 such as classes, generators and iterators, destructuring assignment, and most importantly a module system. The only feature truly noticeably absent are the various reimplementations of types. To read more about the [The Real Story Behind ECMAScript 4](https://auth0.com/blog/the-real-story-behind-es4/).
+        </p>
+
+      <!--  -->
+        <div class="title">
+          <p>Browser Wars: Episode VII</p>
+          <h1>JavaScript Awakens</h1>
+        </div>
+          
+        <p>
+          Beginning in 2009, serverJS was created to give JavaScript a module system and later was renamed commonJS . The goal was "to establish conventions on module ecosystem for JavaScript outside of the web browser" and was likely related to some of the failed ES4 proposals.
+        </p>
+
+    </div>
+  
+  
+  </section>
+
+</body>
+</html>
