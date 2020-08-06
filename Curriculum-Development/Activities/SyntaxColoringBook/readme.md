@@ -12,6 +12,7 @@ Should be "hollow" in order to color inside it.
 # Versions
 1. Syntax Highlighting
 2. Syntax Error Sheets
+3. Logic Error Sheets (fill in the blank)
 
 # Languages Covered
 1. JavaScript
