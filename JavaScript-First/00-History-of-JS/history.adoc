@@ -1,0 +1,281 @@
+:revealjs_theme: blood
+= History of JavaScript
+
+== The Begining...
+Before "JavaScript Existed", The creators behind the Mosaic browser created a language called "LiveScript" and shipped it in 1995. Within 3 months, it was renamed to "JavaScript" to build on the hype train programmers were on with Java, a completely separate and unrelated language.
+
+=== Browser Wars
+Eventually, Microsoft did what they always do, which is steal source code from someone else's product and release their own version of it, Internet Explorer that used **JScript**. The browsers wars started and long story, short, Mosaic, and other browsers died off due to Internet Explorer. Yet multiple forks of JS remained as well as other scripting languages. All of which were made to address the same issues of providing the browser interactive behavior beyond hyperlinks and the page reloading.
+
+== Standardization of Browser Behavior
+The first attempt at standardizing scripting languages was in 1997 with ECMAScript. (ES-1) as part of European Computer Manufacturers Association (ECMA). However, different implementations, competing languages, and egos prevented any real standardization from occurring until 2009. In between that time, the (failed) proposal for ES-4 (led by Mozilla and others) attempted to call for more traditional programming concepts like classes, modules, etc.
+
+=== ES4 Abandoned
+The standard was abandoned largely due to the concern of "breaking the web" and the introduction of AJAX ( Asynchronous JavaScript And XML") which allowed for client-side dynamic content. As a result of multiple factors, jQuery was created in 2006, largely to provide cross-browser support for different implementations of JavaScript and AJAX. By 2009 ES-5 was released and essentially became what the De facto Standard of JavaScript that most still refer to.
+
+=== ES4 Impact
+It is important to note, that virtually every proposed feature in ES-4 would later be implemented in ES-6 such as classes, generators and iterators, destructuring assignment, and most importantly a module system. The only feature truly noticeably absent are the various reimplementations of types. To read more about the [The Real Story Behind ECMAScript 4](https://auth0.com/blog/the-real-story-behind-es4/).
+
+
+
+=== The Birth of Node.js & JavaScript Module Systems
+Beginning in 2009, serverJS was created to give JavaScript a module system and later was renamed commonJS . The goal was "to establish conventions on module ecosystem for JavaScript outside of the web browser" and was likely related to some of the failed ES4 proposals.
+
+
+== Backgroung Images
+
+
+image::https://raw.githubusercontent.com/HansUXdev/OSS-Books/master/JavaScript-First/04-Client-VS-Server/HTTP-readFile.png[background, size=cover]
+
+== Quote
+[quote, Albert Einstein]
+A person who never made a mistake never tried anything new.
+
+== Terms & concepts
+first term:: definition of first term
+second term:: definition of second term
+
+== JavaScipt Code
+image::https://raw.githubusercontent.com/HansUXdev/OSS-Books/master/JavaScript-First/02-DataTypes-and-Debugging/Primitives/primitives.png[]
+
+
+Primitives are weakly Immutable:
+
+[source, JavaScript]
+----
+const StringPrimitive = "Hello";
+console.log(typeof StringPrimitive) // string
+console.log(StringPrimitive.__proto__ ) //
+console.log(StringPrimitive[0]) // "H"
+StringPrimitive[0] = 'k';
+console.log(StringPrimitive[0]) // "H"
+----
+
+
+== Images
+
+[source, asciidoc]
+--
+image::media/morpheus.jpg[]
+--
+
+results in:
+
+image::media/morpheus.jpg[]
+
+=== Background Images
+
+[source, asciidoc]
+--
+image::media/background.jpg[background, size=cover]
+--
+
+results in:
+
+image::media/background.jpg[background, size=cover]
+
+=== Background Gifs
+
+[source, asciidoc]
+--
+image::media/suprise.gif[background, size=cover]
+--
+
+results in:
+
+image::media/suprise.gif[background, size=cover]
+
+[background-video="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",options="loop,muted"]
+=== Background Videos
+
+[source, asciidoc]
+--
+[background-video="https://video.de/my.mp4",options="loop,muted"]
+--
+
+== PlantUml
+[source, asciidoc]
+--
+[graphviz]
+[plantuml,alice-bob]
+....
+alice -> bob
+....
+--
+
+results in:
+
+[plantuml,alice-bob,svg,role=sequence]
+....
+alice -> bob
+....
+
+=== Graphviz
+
+[source, asciidoc]
+--
+[graphviz]
+....
+digraph foo {
+  node [style=rounded]
+  node1 [shape=box]
+  node2 [fillcolor=yellow, style="rounded,filled", shape=diamond]
+  node3 [shape=record, label="{ a | b | c }"]
+
+  node1 -> node2 -> node3
+}
+....
+--
+
+results in:
+
+[graphviz]
+....
+digraph foo {
+  node [style=rounded]
+  node1 [shape=box]
+  node2 [fillcolor=yellow, style="rounded,filled", shape=diamond]
+  node3 [shape=record, label="{ a | b | c }"]
+
+  node1 -> node2 -> node3
+}
+....
+
+[.columns]
+== Column layout
+
+[.column]
+--
+* **Edgar Allen Poe**
+* Sheri S. Tepper
+* Bill Bryson
+--
+
+[.column]
+--
+Edgar Allan Poe (/poʊ/; born Edgar Poe; Ja
+nuary 19, 1809 – October 7, 1849) was an American writer, editor, and literary critic.
+--
+
+[.columns]
+=== Columns with size
+[.column.is-one-third]
+--
+* **Kotlin**
+* Java
+* Scala
+--
+
+[.column]
+--
+Programming language for Android, mobile cross-platform
+and web development, server-side, native,
+and data science. Open source forever Github.
+--
+
+== Lists
+
+[source, asciidoc]
+--
+* Im
+* a
+* List
+--
+
+results in:
+
+* Im
+* a
+* List
+
+=== Lists
+
+[source, asciidoc]
+--
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
+--
+
+results in:
+
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
+
+=== Descriptions
+
+[source, asciidoc]
+--
+first term:: definition of first term
+second term:: definition of second term
+--
+
+results in:
+
+first term:: definition of first term
+second term:: definition of second term
+
+== Source Code
+
+
+[source, asciidoc]
+--
+[source, clojure]
+----
+const StringPrimitive = "Hello";
+console.log(typeof StringPrimitive) // string
+console.log(StringPrimitive.__proto__ ) //
+console.log(StringPrimitive[0]) // "H"
+StringPrimitive[0] = 'k';
+console.log(StringPrimitive[0]) // "H"
+----
+--
+
+results in:
+
+[source, clojure]
+----
+(def lazy-fib
+  (concat
+   [0 1]
+   ((fn rfib [a b]
+        (lazy-cons (+ a b) (rfib b (+ a b)))) 0 1)))
+----
+
+== Tables
+
+[source, asciidoc]
+--
+[%header, cols=2*]
+|===
+|Character
+|Seen in
+
+|Donald Duck
+|Mickey Mouse
+|===
+--
+
+results in:
+
+[%header, cols=2*]
+|===
+|Character
+|Seen in
+
+|Donald Duck
+|Mickey Mouse
+
+|Donald Duck 2
+|Mickey Mouse 2
+|===
+
+== Quotes
+
+[quote, Albert Einstein]
+A person who never made a mistake never tried anything new.

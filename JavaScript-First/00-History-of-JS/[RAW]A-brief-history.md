@@ -5,7 +5,8 @@ This article was originally written on medium and if you interested in reading t
 Before "JavaScript Existed", The creators behind the Mosaic browser created a language called "LiveScript" and shipped it in 1995. Within 3 months, it was renamed to "JavaScript" to build on the hype train programmers were on with Java, a completely separate and unrelated language.
 
 Eventually, Microsoft did what they always do, which is steal source code from someone else's product and release their own version of it, Internet Explorer that used "JScript". The browsers wars started and long story, short, Mosaic, and other browsers died off due to Internet Explorer. Yet multiple forks of JS remained as well as other scripting languages. All of which were made to address the same issues of providing the browser interactive behavior beyond hyperlinks and the page reloading.
-Behind the Language & Engine that powers it
+
+## Behind the Language & Engine that powers it
 
 
 ## Standardization of Browser Behavior via Scripting
@@ -21,7 +22,7 @@ It is important to note, that virtually every proposed feature in ES-4 would lat
 Beginning in 2009, serverJS was created to give JavaScript a module system and later was renamed commonJS . The goal was "to establish conventions on module ecosystem for JavaScript outside of the web browser" and was likely related to some of the failed ES4 proposals.
 
 
-.Later the same year, Ryan Dahl would build on top of this to create the Node.js is a runtime environment for JavaScript, which used the Chrome V8 engine among others such as libuv and released in May, 2009.
+Later the same year, Ryan Dahl would build on top of this to create the Node.js is a runtime environment for JavaScript, which used the Chrome V8 engine among others such as libuv and released in May, 2009.
 
 This runtime environment, is what allowed JavaScript to run virtually anywhere the environment is installed.
 
