@@ -1,6 +1,12 @@
 :revealjs_theme: blood
 = History of JavaScript
 
+:imagesdir: ./images
+:iconsdir: ./icons
+:stylesdir: ./styles
+:scriptsdir: ./js
+
+
 == The Begining...
 link:./index.html[Intro Film]
 
